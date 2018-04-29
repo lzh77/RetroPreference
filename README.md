@@ -3,7 +3,7 @@
 
 ** 用法
 1. 定义一个interface
-2.编写相应的存和取的方法
+2. 编写相应的存和取的方法
 
 ```java
 public interface Setting {
@@ -18,7 +18,7 @@ public interface Setting {
 
 }
 ```
-`@Preference` 声明配置文件的文件名，该配置项的key
-`@Get`或`@Set` 声明这个方法是用来取或者存
-如果是set：@Value代表将要存入的数据，类型以参数类型为准，且返回值必须为boolean
-如果是get：@DefaultValue代表取不到的默认值，类型以该方法返回值为准
+`@Preference` 声明配置文件的文件名，该配置项的key  
+`@Get`或`@Set` 声明这个方法是用来取或者存  
+如果是set：@Value代表将要存入的数据，类型以参数类型为准，且返回值必须为boolean  
+如果是get：@DefaultValue代表取不到的默认值，类型以该方法返回值为准  
